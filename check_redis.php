@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 // connecting to Redis server on localhost
 echo "\r\n<br/>";
 $redis = new Redis();
-$redis->connect('127.0.0.1', 6379);
+$redis->connect('10.48.14.3', 6379);
 echo "Redis connection to 127.0.0.1 port 6379 is successful!\r\n<br/>";
 echo "\r\n<br/>";
 
